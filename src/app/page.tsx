@@ -18,7 +18,7 @@ export default function Home() {
           <LargeHeading
             size='lg'
             className='three-d text-black dark:text-light-gold'>
-            Easily determine <br /> Similarity Scout.
+            Easily determine <br /> text similarity with <br /> Similarity Scout.
           </LargeHeading>
 
           <Paragraph className='max-w-xl lg:text-left'>
