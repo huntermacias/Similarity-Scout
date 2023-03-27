@@ -1,8 +1,8 @@
-import { authOptions } from '@/lib/auth'
-import { getServerSession } from 'next-auth'
+// import { authOptions } from '@/lib/auth'
+// import { getServerSession } from 'next-auth'
 
 import type { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+// import { notFound } from 'next/navigation'
 import Pricing from '@/components/ui/Pricing'
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 }
 
 const page = async () => {
-  const user = await getServerSession(authOptions)
+  // const user = await getServerSession(authOptions)
 //   if (!user) return notFound()
 
   return (
