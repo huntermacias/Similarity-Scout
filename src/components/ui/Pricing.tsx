@@ -25,7 +25,7 @@ export default function Pricing() {
       buttonLabel: "Choose Basic",
       bgClass: "bg-white",
       textColor: "text-black",
-      price_id: "price_1MqLOZGW26cbTFkBvGMmJ5IT",
+      price_id: "https://buy.stripe.com/4gw9BucT5eZO0AE6op",
     },
     {
       name: "Pro",
@@ -34,7 +34,7 @@ export default function Pricing() {
       buttonLabel: "Choose Pro",
       bgClass: "bg-gray-800",
       textColor: "text-white",
-      price_id: "price_1MqLOZGW26cbTFkBvGMmJ5IT",
+      price_id: "https://buy.stripe.com/8wMcNG06jg3Sbfi002",
     },
     {
       name: "Enterprise",
@@ -43,11 +43,12 @@ export default function Pricing() {
       buttonLabel: "Contact Us",
       bgClass: "bg-white",
       textColor: "text-black",
-      price_id: "price_1MqLOZGW26cbTFkBvGMmJ5IT",
+      price_id: "https://buy.stripe.com/fZe00UaKX6ti1EIcMP",
     },
   ];
 
   const handleClick = async (priceId: string) => {
+    window.open(priceId);
     // const stripe = await loadStripe('pk_test_51MqKMvGW26cbTFkBTiCKK2KhBHfNKCETSGjTKpAAuleJ01LAZIljkgRbhSe3hwTPm6t9JrZQT7KQ5UEoAA8F9Fst00mSLgNzXw');
     // const co = { 
     //   lineItems: [{ price: priceId, quantity: 1 }],
